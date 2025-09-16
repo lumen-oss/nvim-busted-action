@@ -31,9 +31,9 @@ runs:
       with:
         path: |
           ~/.luarocks
-        key: ${{ runner.os }}-luarocks-${{ inputs.luarocks_version }}
+        key: ${{ runner.os }}-${{ runner.arch }}-luarocks-${{ inputs.luarocks_version }}
         restore-keys: |
-          ${{ runner.os }}-luarocks-
+          ${{ runner.os }}-${{ runner.arch }}-luarocks-
 
     - run: date +%F > todays-date
       shell: bash
