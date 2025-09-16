@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/lumen-oss/nvim-busted-action/compare/v1.1.0...v1.1.1) (2025-09-16)
+
+
+### Bug Fixes
+
+* update cache key to include runner architecture ([09f8167](https://github.com/lumen-oss/nvim-busted-action/commit/09f8167c87be8f8570dfa0a35aae4409d9474abc))
+
 ## [1.1.0](https://github.com/nvim-neorocks/nvim-busted-action/compare/v1.0.1...v1.1.0) (2024-09-10)
 
 
