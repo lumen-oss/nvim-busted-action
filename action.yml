@@ -21,6 +21,10 @@ inputs:
     description: Script to run before running tests.
     required: false
     default: ''
+  luarocks_args:
+    description: Arguments for LuaRocks
+    required: false
+    default: ''
 runs:
   using: "composite"
   steps:
@@ -73,5 +77,5 @@ runs:
         luarocks install nlua --local
       shell: bash
 
-    - run: luarocks test --local
+    - run: luarocks test --local ${{ inputs.luarocks_args }}
       shell: bash
