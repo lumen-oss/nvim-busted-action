@@ -107,6 +107,10 @@ A bash script to run before running the tests.
 For example, you can use this to install additional luarocks packages
 that can't be installed automatically using `luarocks test`.
 
+### luarocks_args (optional)
+
+Arguments to pass to `luarocks`.
+
 ## Resources
 
 - [`nvim-lua/nvim-lua-plugin-template`](https://github.com/nvim-lua/nvim-lua-plugin-template/)
