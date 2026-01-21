@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/lumen-oss/nvim-busted-action/compare/v1.1.1...v1.2.0) (2026-01-21)
+
+
+### Features
+
+* add `luarocks_args` input ([#12](https://github.com/lumen-oss/nvim-busted-action/issues/12)) ([8d34af2](https://github.com/lumen-oss/nvim-busted-action/commit/8d34af2cce8ca59f0e216bffcb83adbe3a36ddb0))
+
 ## [1.1.1](https://github.com/lumen-oss/nvim-busted-action/compare/v1.1.0...v1.1.1) (2025-09-16)
 
 
