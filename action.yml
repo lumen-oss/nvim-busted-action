@@ -24,7 +24,7 @@ inputs:
   luarocks_args:
     description: Arguments for LuaRocks
     required: false
-    default: '[]'
+    default: ''
     type: string
 runs:
   using: "composite"
@@ -78,5 +78,5 @@ runs:
         luarocks install nlua --local
       shell: bash
 
-    - run: luarocks test --local ${{ join(fromJSON(inputs.luarocks_args), ' ') }}
+    - run: luarocks test --local ${{ inputs.luarocks_args }}
       shell: bash

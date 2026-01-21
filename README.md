@@ -109,7 +109,12 @@ that can't be installed automatically using `luarocks test`.
 
 ### luarocks_args (optional)
 
-Arguments to pass to `luarocks`.
+Arguments to pass to `luarocks`.  E.g., to run only tests which match `some_test`:
+
+```yaml
+  with:
+    luarocks_args: '-- --filter some_test'
+```
 
 ## Resources
 
